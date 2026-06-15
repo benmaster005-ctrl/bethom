@@ -68,6 +68,7 @@ h2 {
     background: #FF6464;
     color: #fff;
     padding: 8px 16px;
+    font-size: 20px;
     
 }
 .hero-content a:hover{
@@ -87,6 +88,9 @@ h2 {
 }
 .hero-image img{
     z-index: 10;
+}
+.hero-title {
+    font-size: 44px;
 }
 .image-shadow{
     background: var(--background-primary);
@@ -310,6 +314,18 @@ h2 {
     h2 {
         text-align: center;
     }
+    .blog h3 {
+        font-size: 22px;
+    }
+    .project-title {
+        font-size: 24px;
+    }
+    .project-date, .project-tag {
+        font-size: 16px  !important;
+    }
+    .article-info {
+        font-size: 1rem !important;
+    }
     .blog-header a{
         display: none;
     }
@@ -343,6 +359,9 @@ h2 {
     }
     .project img{
         width: 100%;
+    }
+    .hero-title {
+        font-size: 32px;
     }
     /*Burger menu*/
     .menu-btn {
