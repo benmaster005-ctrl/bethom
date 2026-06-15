@@ -6,6 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/style.min.css">
     <title>BeThom website | UI/UX Designer</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Heebo:wght@100..900&family=Roboto+Flex:opsz,wght,XOPQ,XTRA,YOPQ,YTDE,YTFI,YTLC,YTUC@8..144,100..1000,96,468,79,-203,738,514,712&display=swap" rel="stylesheet">
 </head>
 
 <body>
@@ -30,7 +33,7 @@
     <main>
         <section class="hero container">
             <div class="hero-content">
-                <h1>Hi, Je suis Thomas, Graphiste</h1>
+                <h1>Hi, Je suis Thomas,<br> Graphiste</h1>
                 <p>Passionné par le code et le design, j'aide les entreprises et les créateurs à développer des sites
                     modernes, performants et adaptés a leurs besoins. Mon objectif est de transformer vos idées en
                     expériences numériques fluides et efficaces.</p>
@@ -48,8 +51,8 @@
             </div>
             <div class="article-container">
                 <article>
-                    <h3>Créer un design à partir de zéro</h3>
-                    <div>
+                    <h3>Créer un design à partir <br>de zéro</h3>
+                    <div class="article-info">
                         <p>12 Feb 2020</p>
                         <span class="seperator"></span>
                         <p>Design, Pattern</p>
@@ -59,7 +62,7 @@
                 </article>
                 <article>
                     <h3>Créer des icônes pixel perfect dans Figma</h3>
-                    <div>
+                    <div class="article-info">
                         <p>12 Feb 2020</p>
                         <span class="seperator"></span>
                         <p>Figma, Icon Design</p>
@@ -84,6 +87,7 @@
                             était de proposer un tableau de bord intuitif et esthétique.</p>
                     </div>
                 </div>
+                <div class="divisor"></div>
                 <div class="project">
                     <img src="public/image_32.webp" alt="Portrait d'illustration d'une femme">
                     <div class="project-info">
@@ -96,6 +100,7 @@
                             explorant l'identité et l'émotion à travers le portrait.</p>
                     </div>
                 </div>
+                <div class="divisor"></div>
                 <div class="project">
                     <img src="public/image_34.webp" alt="Un design de typographie ">
                     <div class="project-info">
@@ -108,6 +113,7 @@
                             malayalam à travers une série de visuels graphiques.</p>
                     </div>
                 </div>
+                <div class="divisor"></div>
             </div>
         </section>
         <section id="contact" class="container contact">
@@ -124,7 +130,7 @@
                         <p>bees@gmail.com</p>
                     </div>
                     <div>
-                        <h3>Socials</h3>
+                        <h3 class="social-title">Socials</h3>
                         <ul>
                             <li><a href="#">Instagram</a></li>
                             <li><a href="#">Twitter</a></li>
@@ -142,21 +148,27 @@
                             <label for="email">Email</label>
                             <input type="text" id="email">
                         </div>
-                        <div>
+                        <div class="select-wrapper">
                             <label for="service">Quel service vous intéresse</label>
                             <select id="service">
                                 <option value="">Select project budget</option>
                                 <option value="website">Création maquette site web</option>
                                 <option value="logo">Création de logo</option>
                             </select>
+                            <span class="arrow">
+                                <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#1f1f1f"><path d="M480-344 240-584l56-56 184 184 184-184 56 56-240 240Z"/></svg>
+                            </span>
                         </div>
-                        <div>
+                        <div class="select-wrapper">
                             <label for="budget">Budget</label>
                             <select id="budget">
                                 <option value="">Select project budget</option>
                                 <option value="website">1000 €</option>
                                 <option value="logo">2000 €</option>
                             </select>
+                            <span class="arrow">
+                                <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#1f1f1f"><path d="M480-344 240-584l56-56 184 184 184-184 56 56-240 240Z"/></svg>
+                            </span>
                         </div>
                         <div>
                             <label for="message">Message</label>
